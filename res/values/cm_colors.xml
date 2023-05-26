@@ -15,25 +15,27 @@
 -->
 <resources>
 
-    <color name="primary">#333333</color>
-    <color name="primaryDark">#000000</color>
-    <color name="accent">#33b5e5</color>
+    <color name="primary">@android:color/system_accent1_400</color>
+    <color name="primaryDark">@android:color/system_accent1_400</color>
+    <color name="accent">@android:color/system_accent1_400</color>
 
-    <color name="white">#fafafa</color>
-    <color name="black">#212121</color>
+    <color name="white">@android:color/system_neutral1_50</color>
+    <color name="black">@android:color/system_neutral1_900</color>
 
-    <color name="light_black">#424242</color>
+    <color name="light_black">@android:color/system_neutral1_600</color>
 
     <color name="tab_1">@color/primary</color>
     <color name="tab_2">@color/primary</color>
     <color name="tab_3">@color/primary</color>
-    <color name="tab_icon_1">@color/white</color>
-    <color name="tab_icon_2">@color/white</color>
-    <color name="tab_icon_3">@color/white</color>
+    <color name="tab_icon_1">@color/accent</color>
+    <color name="tab_icon_2">@color/accent</color>
+    <color name="tab_icon_3">@color/accent</color>
 
     <color name="black_transparent_1">#1a000000</color>
     <color name="black_transparent_2">#26000000</color>
     <color name="black_transparent_3">#75000000</color>
     <color name="black_transparent_4">#8A000000</color>
     <color name="black_transparent_5">#C1000000</color>
+
+    <color name="nav">@android:color/system_neutral1_100</color>
 </resources>

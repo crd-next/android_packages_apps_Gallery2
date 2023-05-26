@@ -14,7 +14,7 @@
      limitations under the License.
 -->
 <resources>
-    <color name="default_background">#212121</color>
+    <color name="default_background">@android:color/system_neutral1_900</color>
     <color name="primary_text">#DEFFFFFF</color>
 
     <color name="album_background">@color/default_background</color>
@@ -31,4 +31,6 @@
     <color name="timeline_title_background_color">@color/default_background</color>
     <color name="timeline_title_number_text_color">#99FFFFFF</color>
     <color name="timeline_title_text_color">@color/primary_text</color>
+
+    <color name="nav">@android:color/system_neutral1_800</color>
 </resources>

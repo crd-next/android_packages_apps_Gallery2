@@ -15,10 +15,10 @@
 -->
 <resources>
 
-    <color name="default_background">@color/white</color>
+    <color name="default_background">@android:color/system_neutral1_50</color>
 
     <!-- configuration for album set page -->
-    <color name="albumset_background">@color/white</color>
+    <color name="albumset_background">@android:color/system_neutral1_50</color>
     <color name="albumset_placeholder">@color/black_transparent_3</color>
     <color name="albumset_label_background">@color/black_transparent_4</color>
     <color name="albumset_label_title">@color/white</color>
@@ -28,13 +28,13 @@
     <color name="darker_transparent">@color/black_transparent_5</color>
 
     <!-- configuration for album page -->
-    <color name="album_background">@color/white</color>
-    <color name="album_placeholder">@color/white</color>
+    <color name="album_background">@android:color/system_neutral1_50</color>
+    <color name="album_placeholder">@android:color/system_neutral1_50</color>
 
     <!-- configuration for photo page -->
-    <color name="photo_background">@color/black</color>
+    <color name="photo_background">@android:color/system_neutral1_900</color>
     <color name="photo_placeholder">@color/light_black</color>
-    <color name="photo_page_action_bar">#8A000000</color>
+    <color name="photo_page_action_bar">@color/accent</color>
     <color name="photo_page_bottom_panel">#8A000000</color>
 
     <!-- configuration for manage cache page -->
@@ -47,12 +47,12 @@
 
     <color name="button_dark_transparent_background">#6000</color>
 
-    <color name="ingest_highlight_semitransparent">#8833b5e5</color>
+    <color name="ingest_highlight_semitransparent">@color/accent</color>
     <color name="ingest_date_tile_text">@color/accent</color>
 
     <!-- Camera resources below -->
 
-    <color name="recording_time_elapsed_text">@color/white</color>
+    <color name="recording_time_elapsed_text">@android:color/system_neutral1_50</color>
     <color name="recording_time_remaining_text">#FFFF0033</color>
     <color name="on_viewfinder_label_background_color">#77333333</color>
     <color name="review_control_pressed_color">@color/accent</color>
@@ -63,10 +63,10 @@
     <color name="indicator_background">#40000000</color>
     <color name="popup_title_color">@color/accent</color>
     <color name="popup_background">#ff282828</color>
-    <color name="pano_progress_empty">#FF2E2E2E</color>
-    <color name="pano_progress_done">#FF33525E</color>
-    <color name="pano_progress_indication">#FF0099CC</color>
-    <color name="pano_progress_indication_fast">#FFFF2222</color>
+    <color name="pano_progress_empty">@color/accent</color>
+    <color name="pano_progress_done">@color/accent</color>
+    <color name="pano_progress_indication">@color/accent</color>
+    <color name="pano_progress_indication_fast">@color/accent</color>
     <color name="mode_selection_border">@color/accent</color>
     <color name="holo_blue_light">@color/accent</color>
     <color name="bright_foreground_disabled_holo_dark">#ff4c4c4c</color>
@@ -81,20 +81,20 @@
     <color name="grey">#e7e7e7</color>
     <color name="disabled_knob">#575757</color>
     <color name="toolbar_theme">@color/primary</color>
-    <color name="multiselect_background">@color/white</color>
-    <color name="edit_background">@color/black</color>
+    <color name="multiselect_background">@color/accent</color>
+    <color name="edit_background">@android:color/system_neutral1_50</color>
     <color name="edit_actionbar_background">@color/black</color>
-    <color name="dialog_button_color">#009688</color>
+    <color name="dialog_button_color">@color/accent</color>
     <color name="timeline_title_text_color">@color/black_transparent_4</color>
     <color name="timeline_title_number_text_color">@color/black_transparent_3</color>
     <color name="timeline_title_background_color">@color/white</color>
 
     <color name="navigation_accent_disabled">#747474</color>
-    <color name="navigation_accent_enabled">@color/white</color>
+    <color name="navigation_accent_enabled">@color/accent</color>
 
     <color name="details_text_color">@color/black_transparent_4</color>
     <color name="empty_text">@color/black_transparent_4</color>
 
     <color name="multiselect_action_text_color">@color/black_transparent_4</color>
-    <color name="multiselect_icon_color">@color/black</color>
+    <color name="multiselect_icon_color">@color/white</color>
 </resources>

@@ -33,6 +33,7 @@
         <item name="android:colorBackgroundCacheHint">@null</item>
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
         <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
         <item name="android:windowTranslucentStatus">true</item>
         <item name="android:windowTranslucentNavigation">false</item>
         <item name="android:windowActionModeOverlay">true</item>
@@ -321,7 +322,8 @@
         <item name="android:windowDisablePreview">true</item>
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
         <item name="android:windowBackground">@android:color/black</item>
-        <item name="android:statusBarColor">#212121</item>
+        <item name="android:statusBarColor">@color/accent</item>
+        <item name="android:navigationBarColor">@color/nav</item>
         <item name="android:windowTranslucentNavigation">false</item>
         <item name="android:windowActionBar">false</item>
         <item name="android:windowActionModeOverlay">true</item>
@@ -334,7 +336,8 @@
     </style>
 
     <style name="QueryTheme" parent="android:Theme.Material">
-        <item name="android:statusBarColor">#ab5810</item>
+        <item name="android:statusBarColor">@color/accent</item>
+        <item name="android:navigationBarColor">@color/nav</item>
     </style>
 
     <style name="ToolbarTheme" parent="android:Theme.Material" >

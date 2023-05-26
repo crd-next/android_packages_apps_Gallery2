@@ -24,7 +24,6 @@ import com.android.gallery3d.data.Path;
 import com.android.gallery3d.glrenderer.ColorTexture;
 import com.android.gallery3d.glrenderer.FadeInTexture;
 import com.android.gallery3d.glrenderer.GLCanvas;
-import com.android.gallery3d.glrenderer.ResourceTexture;
 import com.android.gallery3d.glrenderer.Texture;
 import com.android.gallery3d.glrenderer.TiledTexture;
 import com.android.gallery3d.glrenderer.UploadedTexture;
@@ -37,7 +36,6 @@ public class AlbumSetSlotRenderer extends AbstractSlotRenderer {
     private final int mPlaceholderColor;
 
     private final ColorTexture mWaitLoadingTexture;
-    private final ResourceTexture mCameraOverlay;
     private final AbstractGalleryActivity mActivity;
     private final SelectionManager mSelectionManager;
     protected final LabelSpec mLabelSpec;
@@ -79,8 +77,6 @@ public class AlbumSetSlotRenderer extends AbstractSlotRenderer {
 
         mWaitLoadingTexture = new ColorTexture(mPlaceholderColor);
         mWaitLoadingTexture.setSize(1, 1);
-        mCameraOverlay = new ResourceTexture(activity,
-                R.drawable.ic_cameraalbum_overlay);
     }
 
     public void setPressedIndex(int index) {
@@ -145,8 +141,6 @@ public class AlbumSetSlotRenderer extends AbstractSlotRenderer {
         if (entry.album != null && entry.album.isCameraRoll()) {
             int uncoveredHeight = height - mLabelSpec.labelBackgroundHeight;
             int dim = uncoveredHeight / 2;
-            mCameraOverlay.draw(canvas, (width - dim) / 2,
-                    (uncoveredHeight - dim) / 2, dim, dim);
         }
         if (mPressedIndex == index) {
             if (mAnimatePressedUp) {
